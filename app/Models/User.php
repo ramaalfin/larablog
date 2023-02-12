@@ -21,6 +21,12 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'username',
+        'picture',
+        'bio',
+        'type',
+        'blocked',
+        'direct_publish'
     ];
 
     /**
@@ -41,4 +47,8 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function authorType(){
+        return $this->belongsTo(Type::class, 'type', 'id');
+    }
 }

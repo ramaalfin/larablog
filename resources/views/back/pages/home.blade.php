@@ -1,0 +1,5 @@
+@extends('back.layouts.page-layout')
+@section('pageTitle', isset($pageTitle) ? $pageTitle : 'Home')
+@section('content')
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas illo corporis odio minima. Inventore distinctio voluptas eligendi. Quia aperiam illo repudiandae fuga, expedita rem, veritatis eos, unde nulla deserunt molestiae dolorem neque quisquam nemo itaque laboriosam. Repellendus iure, magnam, deleniti magni facilis praesentium rerum blanditiis, minus mollitia sit error earum! Ducimus fugiat quod, totam iusto impedit soluta similique facilis repellendus minus veniam doloremque corrupti dolores neque deleniti praesentium ipsum modi exercitationem quaerat delectus est vel accusamus ipsa! Corrupti, ipsam quas dicta eveniet quos expedita modi, eaque odit voluptate voluptatibus nihil sapiente repellat. Saepe aut voluptates libero. Rem, deserunt? Distinctio?
+@endsection
